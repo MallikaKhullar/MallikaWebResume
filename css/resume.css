@@ -1,0 +1,277 @@
+                            /*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+                        
+                        body {
+                            font-family: 'Open Sans', serif;
+                            padding-top: 54px;
+                            color: #a6a7a8;
+                            font-size: 0.85rem
+                        }
+                        
+                        .grey {
+                            color: lightslategray;
+                        }
+                        
+                        @media (min-width: 992px) {
+                            body {
+                                padding-top: 0;
+                                padding-left: 17rem;
+                            }
+                        }
+                        
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6 {
+                            font-family: 'Saira Extra Condensed', serif;
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            color: #101111;
+                        }
+                        
+                        .job-desc {
+                            font-family: 'Saira Extra Condensed', serif;
+                            font-weight: 700;
+                            font-size: 1.6rem;
+                            letter-spacing: 0.15ch;
+                            text-transform: uppercase;
+                            color: #646464;
+                        }
+                        
+                        h1 {
+                            font-size: 6rem;
+                            line-height: 5.5rem;
+                        }
+                        
+                        h2 {
+                            font-size: 3.5rem;
+                        }
+                        
+                        .subheading {
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            line-height: 1;
+                            font-family: 'Saira Extra Condensed', serif;
+                            font-size: 1.95rem;
+                            color: #5d6063;
+                        }
+                        
+                        .list-social-icons a {
+                            color: #495057;
+                        }
+                        
+                        .list-social-icons a:hover {
+                            color: #47678e;
+                        }
+                        
+                        .list-social-icons a .fa-lg {
+                            font-size: 1.75rem;
+                        }
+                        
+                        .list-icons {
+                            font-size: 3.5rem;
+                        }
+                        
+                        .list-icons .list-inline-item i:hover {
+                            color: #47678e;
+                        }
+                        
+                        #sideNav .navbar-nav .nav-item .nav-link {
+                            font-weight: 600;
+                            text-transform: uppercase;
+                        }
+                        
+                        @media (min-width: 992px) {
+                            #sideNav {
+                                text-align: center;
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                display: flex;
+                                flex-direction: column;
+                                width: 17rem;
+                                height: 100vh;
+                            }
+                            #sideNav .navbar-brand {
+                                display: flex;
+                                margin: auto auto 0;
+                                padding: 0.5rem;
+                            }
+                            #sideNav .navbar-brand .img-profile {
+                                max-width: 10rem;
+                                max-height: 10rem;
+                                border: 0.5rem solid rgba(255, 255, 255, 0.2);
+                            }
+                            #sideNav .navbar-collapse {
+                                display: flex;
+                                align-items: flex-start;
+                                flex-grow: 0;
+                                width: 100%;
+                                margin-bottom: auto;
+                            }
+                            #sideNav .navbar-collapse .navbar-nav {
+                                flex-direction: column;
+                                width: 100%;
+                            }
+                            #sideNav .navbar-collapse .navbar-nav .nav-item {
+                                display: block;
+                            }
+                            #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+                                display: block;
+                            }
+                        }
+                        
+                        section.resume-section,
+                        section.small-resume-section {
+                            border-bottom: 1px solid #dee2e6;
+                            padding-top: 5rem !important;
+                            padding-bottom: 5rem !important;
+                        }
+                        
+                        section.resume-section .resume-item .resume-date,
+                        section.small-resume-section .resume-item .resume-date {
+                            min-width: none;
+                        }
+                        
+                        @media (min-width: 768px) {
+                            section.resume-section {
+                                min-height: 100vh;
+                            }
+                            section.small-resume-section {
+                                min-height: 50vh;
+                            }
+                            section.resume-section .resume-item .resume-date,
+                            section.small-resume-section .resume-item .resume-date {
+                                min-width: 18rem;
+                            }
+                        }
+                        
+                        @media (max-width: 768px) {
+                            .long-project-container {
+                                position: relative;
+                                width: 100%;
+                                float: left;
+                                margin: 20px;
+                            }
+                            .project-container {
+                                position: relative;
+                                width: 100%;
+                                float: left;
+                                margin: 20px;
+                            }
+                        }
+                        
+                        @media (min-width: 992px) {
+                            section.resume-section {
+                                section.small-resume-section {
+                                    padding-top: 3rem !important;
+                                    padding-bottom: 3rem !important;
+                                }
+                            }
+                            .bg-primary {
+                                background-color: #47678e !important;
+                            }
+                            .text-primary {
+                                color: #47678e !important;
+                            }
+                            a {
+                                color: #6083a8;
+                                font-weight: 600;
+                            }
+                            a:hover,
+                            a:focus,
+                            a:active {
+                                color: #bd826d;
+                                text-decoration: none;
+                            }
+                            .project-image {
+                                display: block;
+                                width: 200px;
+                                height: 200px;
+                            }
+                            .project-overlay {
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                right: 0;
+                                height: 200px;
+                                width: 200px;
+                                opacity: 0;
+                                transition: .5s ease;
+                                background-color: #47678e;
+                            }
+                            .project-container:hover .project-overlay {
+                                opacity: 1;
+                            }
+                            .project-text {
+                                color: white;
+                                font-size: 20px;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                text-align: center;
+                            }
+                            .mb--1 {
+                                margin-bottom: -10px;
+                            }
+                            .logo-icon {
+                                height: 21px;
+                                margin-right: 10px;
+                                margin-bottom: 6px
+                            }
+                            .list-header {
+                                margin-top: 25px;
+                                font-weight: 600;
+                                font-size: 1rem;
+                                color: #47678e;
+                            }
+                            .orange {
+                                color: #d1704c;
+                            }
+                            @media (min-width: 768px) {
+                                .long-project-container,
+                                .project-container {
+                                    position: relative;
+                                    width: 20%;
+                                    float: left;
+                                    margin: 20px;
+                                }
+                            }
+                            .long-project-image {
+                                display: block;
+                                width: 250px;
+                                height: 220px;
+                            }
+                            .long-project-overlay {
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                right: 0;
+                                height: 220px;
+                                width: 250px;
+                                opacity: 0;
+                                transition: .5s ease;
+                                background-color: #47678e;
+                            }
+                            .long-project-container:hover .long-project-overlay {
+                                opacity: 1;
+                            }
+                            .long-project-text {
+                                color: white;
+                                font-size: 14px;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                text-align: center;
+                            }
