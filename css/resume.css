@@ -146,6 +146,12 @@
                                 }
                                 
                                 @media (max-width: 768px) {
+                                    .list-header {
+                                        margin-top: 25px;
+                                        font-weight: 600;
+                                        font-size: 1rem;
+                                        color: #47678e;
+                                    }
                                     .project-text {
                                         color: white;
                                         font-size: 20px;
